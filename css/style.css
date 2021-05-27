@@ -160,3 +160,193 @@ color: #B2B2B2;
 .section-title{
     margin-bottom: 40px;
 }
+.offer{
+    border: 1px solid #C5C9D5;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.offer:not(:first-child){
+    margin-top: 20px;
+}
+.offer-img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 1px solid #f2f3f6;
+    
+    background: #fff url('../img/технопарк.png') no-repeat center / contain;
+}   
+.offer-heading{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text/Primary */
+
+    color: #111238;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.place{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Text/Primary */
+
+    color: #111238;
+
+    opacity: 0.8;
+}
+.offer-title{
+    margin-left: 20px;
+}
+.salary{
+    padding: 10px 25px;
+    margin-left: 46px;
+    margin-right: 62px;
+    background: #1A75E8;
+border-radius: 5px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Inputs/Light */
+
+color: #FFFFFF;
+}
+
+.more{
+    margin-left: auto;
+    margin-right: 25px;
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Buttons/Primary */
+
+color: #1A75E8;
+text-decoration: none;
+}
+.subcribe{
+    background: #F2F3F6;
+    
+}
+.sub-title{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    /* Text/Primary */
+
+    color: #111238;
+    margin-bottom: 20px;
+}
+.sub-desc{
+    margin-bottom: 40px;
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+text-align: center;
+
+/* Text/Primary */
+
+color: #111238;
+
+}
+.subcribe-form{
+    max-width: 460px;
+    margin:auto;
+    text-align:center;
+}
+.footer-desc{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 140%;
+/* or 17px */
+
+
+/* Inputs/Grey */
+
+color: #B2B2B2;
+}
+.footer-title{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+/* Text/Primary */
+
+color: #111238;
+margin-bottom: 15px;
+}
+.year{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+
+/* Inputs/Grey */
+
+color: #B2B2B2;
+}
+.footer{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.footer-list-link{
+    display: block;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text/Primary */
+
+    color: #111238;
+text-decoration: none;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ 
+}
+.footer-list{
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+.footer-list-item{
+    margin-bottom: 10px;
+}
