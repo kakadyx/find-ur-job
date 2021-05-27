@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after{
+box-sizing:border-box;
+}
+
 body {
     background-color: #fff;
     font-family: 'Fira Sans', sans-serif;
@@ -8,8 +14,8 @@ body {
 
 .menu{
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 .menu-item:not(:last-child){
     margin-right: 20px;
@@ -22,6 +28,8 @@ body {
 .button{
     text-decoration: none;
     display: inline-block;
+    border:none;
+    font-size: 16px;
 }
 .button-link{
    padding: 10px;
@@ -32,4 +40,123 @@ body {
     border-radius: 5px;
     padding: 15px 30px ;
     color:#fff;
+}
+.hero-title{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+    /* Text/Primary */
+
+    color: #111238;
+}
+.hero-text{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    margin-bottom: 30px;
+
+    /* Text/Primary */
+
+    color: #111238;
+}
+.input-group{
+    background-color: #fff;
+
+    /* Inputs/Light */
+
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.input{
+    background-color: #fff;
+    border:none;
+    flex-grow:1;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    padding-left: 15px;
+
+    
+}
+.input:focus{
+    outline: none;
+}
+.button-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.button-text{
+    vertical-align: middle;
+}
+.tags-group{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 10px;
+
+color: #B2B2B2;
+}
+
+.tag{
+    color:#b2b2b2;
+    text-decoration:none;   
+    padding: 5px 10px;
+    border: 1px solid #B2B2B2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.tag:first-child{
+    margin-left: 15px;
+}
+.header{
+    background-color: #F2F3F6;
+    margin: 0;
+    padding: 0;
+}
+.card-icon{
+    fill:#111238;
+    margin-bottom: 15px;
+}
+
+.card{
+    color:#111238;
+    text-decoration: none;
+    background: #F2F3F6;
+    border-radius: 10px;    
+    padding: 35px 40px;
+}
+.card:hover .card-icon{
+
+    
+    fill:#fff;
+    transition:.3s;
+
+
+}
+.card:hover {
+    transition:.3s;
+    color:#fff;
+    background: #1A75E8;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.section-title{
+    margin-bottom: 40px;
 }
